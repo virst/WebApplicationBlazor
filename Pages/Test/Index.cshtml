@@ -1,0 +1,13 @@
+﻿@page
+@model WebApplicationBlazor.Pages.Test.IndexModel
+@{
+}
+
+
+<h1>Test Index</h1>
+
+<component type="typeof(WebApplicationBlazor.Components.Counter)" param-InitialValue="0" render-mode="Server" />
+
+@section Scripts {
+    <script src="_framework/blazor.server.js"></script>
+}
